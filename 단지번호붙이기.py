@@ -16,7 +16,7 @@ def DFS(graph,i,j,count):
     for k in range(4):
         count= DFS(graph, i + dirX[k], j + dirY[k], count)
         
-    return c
+    return count
 
 num=int(sys.stdin.readline())
 
