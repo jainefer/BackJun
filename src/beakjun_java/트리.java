@@ -25,6 +25,7 @@ public class 트리 {
                     preList.add(Integer.parseInt(preTemp[j]));
                     inList.add(Integer.parseInt(inTemp[j]));
                 }
+                
                 //preList,inList,pre시작위치,pre끝나는위치,in시작위치,in끝나는위치
                 GetTree(preList, inList, 0, n - 1, 0, n - 1);
                 for (int j = 0; j < postList.size(); j++) {
