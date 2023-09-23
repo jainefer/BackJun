@@ -7,7 +7,7 @@ dirX=[0,0,-1,1]
 dirY=[-1,1,0,0]
 
 def DFS(graph,i,j,count):
-    
+    #종료조건
     if i < 0 or i >= num or j < 0 or j >= num or graph[i][j] != 1:
         return count
     #방문한 곳은 모두 0처리를 하는 동시에 count를 센다
