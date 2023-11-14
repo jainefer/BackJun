@@ -56,6 +56,7 @@ public class cube {
 		if(!state) 
 			return ;
 		
+		//박스를 자르면 남는 세개의 박스에 대해 호춣한다.
 		
 		GetCube(l-cubeSide,cubeSide,cubeSide);
 		GetCube(l,w-cubeSide,cubeSide);

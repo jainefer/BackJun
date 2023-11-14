@@ -87,6 +87,7 @@ public class cut_stone {
   
         	return 1;
         }
+        //잘라야할 경우 
         for (int i = x_start; i < x_end; i++) {
             for (int j = y_start; j < y_end; j++) {
                if(stones[i][j]==1&&IsJewel(i,j,x_start,x_end,y_start,y_end,mod)) {//mod=1 세로로 자른것,mod=2 가로로 자른것

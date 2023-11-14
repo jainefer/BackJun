@@ -3,7 +3,7 @@ package beakjun_java;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Coin1 {
+public class coin1 {
     
     
     
@@ -32,7 +32,7 @@ public class Coin1 {
         			dp[j]=dp[j]+dp[j-coin[i]];
         			
         		}
-        		//System.out.println(i+"°¡Áö "+j+"¹øÂ°"+"dp: "+dp[j]);
+        		//System.out.println(i+"ï¿½ï¿½ï¿½ï¿½ "+j+"ï¿½ï¿½Â°"+"dp: "+dp[j]);
         	}
         }
         System.out.print(dp[k]);
